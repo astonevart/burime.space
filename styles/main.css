@@ -1,0 +1,50 @@
+body,a{
+    color: #eae5ca;
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: 700;
+    font-size: 16px;
+}
+.logo{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+    opacity: 0.9;
+
+
+}
+.b-color{
+    color: #b7ff6b;
+}
+.u-color{
+    color: #ffae8a;
+}
+.r-color{
+    color: #ff8ecf;
+}
+.i-color{
+    color: #8287ff;
+}
+.m-color{
+    color: #65f2ff;
+}
+.e-color{
+    color: #ff695d;
+}
+header{
+    background: #4f4f4f;
+    padding:  10px 0
+}
+.burime-item{
+    border: 1px solid black;
+    height: 120px;
+    overflow: hidden;
+    color: #949494;
+
+}
+.p-2 {
+    padding: .8rem!important;
+}
+.title-burime{
+    text-align: center;
+    color: #040404;
+}

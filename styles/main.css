@@ -79,6 +79,7 @@ footer{
 .opened-burime .author{
     text-align: right;
     font-weight: 700;
+    padding: 0 15px 0 0;
 }
 .opened-burime {
     font-weight: 400;
@@ -89,4 +90,24 @@ footer{
 }
 .author-photo{
     border-radius: 50%;
+}
+.btn-burime{
+    background-color: #4f4f4f;
+    border-color: #040404;
+}
+.btn-burime:hover{
+    background-color: #7e7e7e;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #7f7f7f;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(87, 87, 87, 0.25);
+}
+.opened-burime form{
+    margin-top: 40px ;
+}
+.opened-burime form input{
+    margin-bottom: 10px;
 }

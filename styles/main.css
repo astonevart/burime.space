@@ -78,4 +78,18 @@ footer{
 }
 .opened-burime .author{
     text-align: right;
+    font-weight: 700;
+}
+.opened-burime {
+    font-weight: 400;
+}
+.opened-burime h4{
+    font-weight: 700;
+    padding: 15px;
+}
+.author-photo{
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
 }

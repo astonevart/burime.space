@@ -34,15 +34,35 @@ body,a{
 }
 header{
     background: #4f4f4f;
-    padding:  10px 0;
+    padding:  6px 0;
 }
 .burime-item{
-    border: 1px solid black;
+    border: 2px solid #4f4f4f;
     height: 140px;
     overflow: hidden;
     color: #949494;
     position: relative;
 
+}
+.hover:after {
+    content: attr(data-title);
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: -134px;
+    background-color: #4f4f4f;
+    color: #eae5ca;
+    padding: 9px;
+    border-radius: 5px;
+    text-align: center;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.16);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.16);
+    box-shadow: 0 1px 1px rgba(0,0,0,.16);
+    font-size: 15px;
+}
+/* Добавляем свойство, чтобы при наведении на элемент плашка с подсказкой появилась */
+.hover:hover:after{
+    display: block;
 }
 .p-2 {
     padding: .8rem!important;

@@ -36,7 +36,7 @@ header{
 }
 .burime-item{
     border: 1px solid black;
-    height: 120px;
+    height: 140px;
     overflow: hidden;
     color: #949494;
 
@@ -47,4 +47,11 @@ header{
 .title-burime{
     text-align: center;
     color: #040404;
+}
+.filter{
+    filter: blur(1px);
+}
+.burime-item a{
+    text-decoration: none;
+    color: #949494;
 }

@@ -107,13 +107,23 @@
                     <span>Тарас Шевченко</span>
                     <img src="images/1.jpg" width="30px" height="30px" class="author-photo">
                 </div>
-                <form>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Введите первую строку">
-                        <input type="text" class="form-control" placeholder="Введите вторую строку">
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-burime">Добавить</button>
-                </form>
+                <div>&nbsp;</div>
+                <div>&nbsp;</div>
+                <div id="vue-react">
+                    <div>{{row1}}</div>
+                    <div>{{row2}}</div>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Первая строка" v-model="row1">
+                            <input type="text" class="form-control" placeholder="Вторая строка" v-model="row2">
+                        </div>
+                        <div class="author">
+                            <span>Рябенко Александр</span>
+                            <img src="images/1.jpg" width="30px" height="30px" class="author-photo">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-burime">Добавить</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
@@ -122,5 +132,6 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="scripts/main.js"></script>
 </html>

@@ -6,3 +6,10 @@ $(document).ready( function(){
             $(this).css("color","hsla("+Math.random()*360+",100%,50%,0.8)")
         });
 });
+new Vue({
+    el: '#vue-react',
+    data: {
+        row1: '',
+        row2: ''
+    }
+});

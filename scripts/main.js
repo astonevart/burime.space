@@ -10,7 +10,7 @@ $(document).ready( function(){
         $(window).scroll(function(event){
             var st = $(this).scrollTop();
             if (st > lastScrollTop){
-                $('header').css('top','-69px');
+                $('header').css('top','-160px');
             } else {
                 $('header').css('top','0');
             }

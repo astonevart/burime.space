@@ -10,9 +10,9 @@ $(document).ready( function(){
         $(window).scroll(function(event){
             var st = $(this).scrollTop();
             if (st > lastScrollTop){
-                $('header').removeClass('sticky-top');
+                $('header').css('top','-69px');
             } else {
-                $('header').addClass( "sticky-top");
+                $('header').css('top','0');
             }
             lastScrollTop = st;
         });

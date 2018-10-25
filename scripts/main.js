@@ -3,7 +3,7 @@ $(document).ready( function(){
             var color = Math.random()*360;
             $(this).css({"box-shadow":"inset 0px 0px 101px -19px hsla("+color+",100%,50%,0.6)"})
         });
-        $(".opened-burime .author").each(function () {
+        $(".author").each(function () {
             $(this).css("color","hsla("+Math.random()*360+",100%,50%,0.8)")
         });
         var lastScrollTop = 0;
@@ -21,6 +21,7 @@ new Vue({
     el: '#vue-react',
     data: {
         row1: '',
-        row2: ''
+        row2: '',
+        title: ''
     }
 });

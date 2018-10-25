@@ -1,10 +1,13 @@
 $(document).ready( function(){
+
         $(".burime-item").each(function () {
             var color = Math.random()*360;
             $(this).css({"box-shadow":"inset 0px 0px 101px -19px hsla("+color+",100%,50%,0.6)"})
         });
         $(".author").each(function () {
-            $(this).css("color","hsla("+Math.random()*360+",100%,50%,0.8)")
+            console.log();
+            var color = Math.random()*360;
+            $(this).css("color","hsla("+color+",100%,50%,0.8)");
         });
         var lastScrollTop = 0;
         $(window).scroll(function(event){

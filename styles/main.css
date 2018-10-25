@@ -122,8 +122,14 @@ footer{
     font-weight: 700;
     padding: 15px;
 }
+.burime-create-item{
+    margin-bottom: 0;
+}
 .author-photo{
     border-radius: 50%;
+}
+.heart{
+    color: inherit;
 }
 .btn-burime{
     background-color: #4f4f4f;
@@ -134,6 +140,13 @@ footer{
     color: #eae5ca;
     margin-top: 10px;
 
+
+}
+.btn-burime-end{
+    float: right;
+}
+.btn-burime-create{
+    margin-left: 35px;
 }
 .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
     background-color: #3d3d3d;

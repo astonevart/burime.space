@@ -53,7 +53,7 @@
 <section>
     <div class="d-flex justify-content-center">
         <div class="d-flex p-2 bd-highlight">
-            <div class="opened-burime">
+            <div class="opened-burime burime-create-item">
                 <div id="vue-react">
                     <h4 class="title-burime">{{title}}</h4>
                     <div>{{row1}}</div>
@@ -64,15 +64,20 @@
                             <input type="text" class="form-control" placeholder="Первая строка" v-model="row1" maxlength="50" required>
                             <input type="text" class="form-control" placeholder="Вторая строка" v-model="row2" maxlength="50" required>
                         </div>
-                        <div class="author">
-                            <span>Рябенко Александр</span>
-                            <img src="images/1.jpg" width="30px" height="30px" class="author-photo">
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-burime">Создать</button>
+                        <button type="submit" class="btn btn-primary btn-burime btn-burime-create">Создать</button>
                     </form>
                 </div>
             </div>
         </div>
+
+    </div>
+    <div class="d-flex justify-content-center">
+        <div class="d-flex p-2 bd-highlight">
+            <div class="alert alert-secondary" role="alert">
+                Только Вы - создатель буриме имете право завершить его написание, не забудьте пожалуйста за него!
+            </div>
+        </div>
+
     </div>
 </section>
 </body>

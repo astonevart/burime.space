@@ -174,3 +174,35 @@ footer{
     border-radius: 20px;
     padding-left: 17px;
 }
+.whatisit{
+    color: #4f4f4f;
+    width: 700px;
+    margin: 10px;
+
+}
+.whatisit p{
+    text-indent: 1.5em;
+    text-align: justify;
+}
+#dropdownMenuButton{
+    padding-top: 7px;
+    display: inline-block;
+    cursor: pointer;
+}
+.dropdown-menu{
+    min-width: 4rem;
+    top: 15px;
+    left: -14px;
+    margin: .125rem -20px 0;
+    border: none;
+
+}
+.fa-facebook-square{
+    color: rgba(32, 37, 169, 0.75);
+    font-size: 2em;
+}
+.fa-google-plus-square{
+    color: rgba(169, 11, 18, 0.75);
+    font-size: 2em;
+
+}
